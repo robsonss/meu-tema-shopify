@@ -5,9 +5,7 @@
         <meta content='IE=edge,chrome=1' http-equiv='X-UA-Compatible'>
         <meta name='theme-color' content='#D1784F'>
         <meta name='viewport' content='width=device-width, initial-scale=1, maximum-scale=1'>
-
-        <meta name='google-site-verification' content='yfvl60NFhANfK0QEfmfniz5MpZHFcKE88YSmKU_6VzQ'>
-        <meta name='facebook-domain-verification' content='u7ma97nvv7dz6rg5e6yuwr0gzvm0gl'>
+        <title>Minha Loja Shopify</title>
 
         <link href='{{ shop.url }}{{ collection.url }}'>
         {% render 'head__cannonical' %}
@@ -16,14 +14,9 @@
             <link rel='shortcut icon' href='{{ settings.favicon | img_url: ' 32x32' }}' type='image/png'>
         {% endif %}
 
-        {% render 'head__title' %}
-
         {% if page_description %}
             <meta name='description' content='{{ page_description | escape }}'>
         {% endif %}
-
-        {% render 'seo__microdata' %}
-        {% render 'seo__metatags' %}
 
         {% render 'styles__all-calls' %}
 
@@ -39,7 +32,6 @@
         data-template='{{ template.name | handle }}'
         data-suffix='{{ template.suffix }}'
     >
-        <div class='page-overlay' data-action='close-cart'></div>
 
         <main role='main' class='e-{{ template.name | handle }} {{ template.name | handle }} e-main-section'>
             {{ content_for_layout }}
