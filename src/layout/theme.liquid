@@ -7,9 +7,6 @@
         <meta name='viewport' content='width=device-width, initial-scale=1, maximum-scale=1'>
         <title>Minha Loja Shopify</title>
 
-        <link href='{{ shop.url }}{{ collection.url }}'>
-        {% render 'head__cannonical' %}
-
         {% if settings.favicon %}
             <link rel='shortcut icon' href='{{ settings.favicon | img_url: ' 32x32' }}' type='image/png'>
         {% endif %}
