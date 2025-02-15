@@ -1,0 +1,31 @@
+{
+    "name": "meu-tema-shopify",
+    "version": "1.0.0",
+    "description": "Setup para desenvolvimento de themas shopify",
+    "main": "gulpfile.js",
+    "scripts": {
+        "start": "gulp watch"
+    },
+    "author": "Robson Santana",
+    "license": "ISC",
+    "devDependencies": {
+        "@eslint/eslintrc": "^3.2.0",
+        "@eslint/js": "^9.17.0",
+        "@shopify/eslint-plugin": "^46.0.0",
+        "@shopify/prettier-plugin-liquid": "^1.6.3",
+        "@types/jquery-mask-plugin": "^1.14.6",
+        "eslint": "^8.57.1",
+        "eslint-plugin-prettier": "^5.2.1",
+        "globals": "^15.14.0",
+        "gulp": "^5.0.0",
+        "gulp-autoprefixer": "^9.0.0",
+        "gulp-changed": "^5.0.2",
+        "gulp-minify": "^3.1.0",
+        "gulp-sass": "^6.0.0",
+        "prettier": "^3.4.2",
+        "sass": "^1.83.1"
+    },
+    "dependencies": {
+        "axios": "^1.4.0"
+    }
+}

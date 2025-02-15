@@ -1,0 +1,6 @@
+{{ 'ModifyCustomStore-main.css' | asset_url | stylesheet_tag }}
+{% comment %}
+    {% if template == 'index' %}
+    {{ 'ModifyCustomStore-home.css' | asset_url | stylesheet_tag }}
+    {% endif %}
+{% endcomment %}

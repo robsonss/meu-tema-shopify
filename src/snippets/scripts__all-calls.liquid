@@ -1,0 +1,12 @@
+<script src='{{ 'lazyload.min.js' | asset_url }}' defer></script>
+<script src='{{ 'jquery.mask.js' | asset_url }}' async></script>
+
+{% comment %}
+<script src='{{ 'ModifyCustomStore-general.js' | asset_url }}' defer></script>
+{% endcomment %}
+
+{% comment %}
+    {% if template.name == 'index' %}
+        <script src='{{ 'ModifyCustomStore-home.js' | asset_url }}' async></script>
+    {% endif %}
+{% endcomment %}

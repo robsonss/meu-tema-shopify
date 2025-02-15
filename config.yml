@@ -1,0 +1,5 @@
+development:
+    password: code
+    theme_id: 133238521971
+    store: ModifyCustomStore.myshopify.com
+    directory: './build'
